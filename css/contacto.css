@@ -1,0 +1,27 @@
+.contacto .form, .contacto h2 {
+    justify-content: center;
+    display: flex;
+}
+.contacto h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.contacto {
+    background-color: red;
+}
+.contacto .form input, textarea {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid #797878;
+}
+.contacto .form textarea {
+    max-width: 500px;
+    min-width: 500px;
+    max-height: 200px;
+    height: 100px;
+    min-height: 100px;
+}

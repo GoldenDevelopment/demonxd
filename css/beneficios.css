@@ -1,0 +1,24 @@
+.beneficios .titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.beneficios .article {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+.beneficios article {
+    margin-left: 40px;
+    box-shadow: black;
+    background-color: rgb(233, 233, 233);
+    width: 450px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 0 3px gray,
+                0 5px 50px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.beneficios article p {
+    margin-top: 10px;
+}

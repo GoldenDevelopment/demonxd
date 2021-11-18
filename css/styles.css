@@ -1,0 +1,17 @@
+@import url(menu.css);
+@import url(footer.css);
+@import url(slider.css);
+@import url(snosotros.css);
+@import url(beneficios.css);
+@import url(contacto.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+header {
+    background-color: #171616;
+    height: 75px;
+}

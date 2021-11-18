@@ -1,0 +1,120 @@
+header img {
+    width: 70px;
+    position: absolute;
+}
+header span {
+    position: relative;
+    color: #fff;
+    margin-left: 80px;
+    top: 15px;
+}
+header nav ul {
+    top: -15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+header nav ul li {
+    margin: 10px 10px;
+    list-style: none;
+}
+header nav ul li a {
+    background-color: azure;
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 50px;
+    color: #000;
+    transition: all 0.3s;
+}
+header nav ul li a:hover {
+    background-color: gray;
+    color: #fff;
+}
+header nav ul li .gpanel {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 30px;
+    background-color: red;
+    color: #fff;
+}
+header nav ul li .gpanel:hover {
+    padding: 10px 30px;
+    background-color: rgb(255, 121, 116);
+    color: #000;
+}
+header .toggle, .toggle1 {
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  display: none;
+  cursor: pointer;
+  color: #fff;
+  width: 100%;
+  top: 10px;
+  position: absolute;
+  z-index: 98;
+}
+.toggle1 {
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+    color: #fff;
+    width: 15%;
+    top: 10px;
+    z-index: 100;
+    position: fixed;
+}
+.toggle-i {
+  float: right;
+  margin-top: 15px;
+}
+.toggle b {
+    float: right;
+    margin-left: 10px;
+}
+.toggle-i1 {
+  float: right;
+  margin-top: 15px;
+}
+.toggle1 b {
+    float: right;
+    margin-left: 10px;
+}
+@media (max-width: 1090px) {
+    header .toggle, .toggle1 {
+      display: block;
+    }
+    header {
+        z-index: 99;
+    }
+    header nav ul {
+        flex-direction: column;
+        margin: 0;
+        background-color: #000000cb;
+        position: fixed;
+        left: -100%;
+        width: 100%;
+        align-items: center;
+        height: calc(100% + 60px);
+        overflow-y: auto;
+        z-index: 99;
+        transition: all 0.5s;
+    }
+    .toggle1 {
+        left: -100%;
+        transition: all 0.5s;
+    }
+    header nav ul li {
+        font-size: 30px;
+        margin-top: 80px;
+    }
+    .nav-menu_visible {
+      left: 0;
+    }
+}
